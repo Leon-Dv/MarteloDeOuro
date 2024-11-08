@@ -3,9 +3,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Ajusta conforme a altura desejada */
+    height: 50vh; /* Ajusta conforme a altura desejada */
     padding: 0;
-
+    
 
 }
 
@@ -16,6 +16,8 @@ main {
     align-items: center;
     justify-content: center;
     bottom: 2%;
+    margin-top: 1%;
+   
 }
 
 .carousel div {
@@ -24,13 +26,18 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+
+  
 }
 
 .carousel img {
     width: 100%; /* Ocupa 100% da largura */
     height: 100%; /* Ocupa 100% da altura */
     object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+  
+    
 }
+
 
 .bg-light {
     background-color: rgb(224, 224, 224);
