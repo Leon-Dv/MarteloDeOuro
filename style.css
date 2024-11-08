@@ -1,0 +1,82 @@
+/* Ajustando o carrossel para preencher o espaço do main */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta conforme a altura desejada */
+    padding: 0;
+
+
+}
+
+.carousel {
+    width: 100%; /* Carrossel ocupa 100% do main */
+    height: 100%; /* Carrossel ocupa 100% da altura do main */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 2%;
+}
+
+.carousel div {
+    width: 100%; /* Preenche a largura do contêiner */
+    height: 100%; /* Preenche a altura do contêiner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel img {
+    width: 100%; /* Ocupa 100% da largura */
+    height: 100%; /* Ocupa 100% da altura */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+}
+
+.bg-light {
+    background-color: rgb(224, 224, 224);
+}
+
+a, p {
+    font-size: 18px;
+}
+
+/* Estilos de botões CTA */
+.btn-cta {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+#btn2 {
+    background-color: rgb(255, 63, 63);
+}
+
+#btn2:hover {
+    background-color: rgb(204, 28, 28);
+}
+
+.btn-cta:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-section {
+    padding: 40px 0;
+}
+
+.cta-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.cta-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}

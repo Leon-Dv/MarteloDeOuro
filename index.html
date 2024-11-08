@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 04</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Incluindo o CSS do Slick -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Incluindo o CSS da biblioteca AOS para animações -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+
+    <!--Header-->
+    <header>
+        <nav class="nav navbar bg-secondary text-center">
+            <ul class="nav p-3 bg-secondary justify-content-center">
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#testemunhos">Testemunhos</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#form-control">Trabalhe Conosco</a>
+                </li>
+            </ul>
+
+            <ul class="nav nav-pills">
+                <div class="row">
+                    <button class="btn-cta">Contate-nos</button>
+                    <button class="btn-cta" id="btn2">Saiba Mais</button>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Carrossel-->
+    <main class="bg-light">
+        <div class="carousel pt-1 h-50">
+            <div><img src="obras_novanorma_956_667.jpg" alt="developer-image-1" /></div>
+            <div><img src="obras.jpg" alt="developer-image-3" /></div>
+            <div><img src="WhatsApp-Image-2023-11-10-at-11.28.34.jpeg" alt="developer-image-4" /></div>
+        </div>
+    </main>
+
+    <!--Sobre Nós-->
+    <section class="bg-light text-dark p-5 text-center" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a fornecer serviços de obras de construção, com inovação de tecnologias.
+            Entregas com menor tempo e sem chamar atenção excessiva. <br>
+            Queremos consolidar em cada capital do Brasil, realizando serviços em toda América do Sul, com planejamento
+            e execução cuidadosos, trazendo automatização de processos</p>
+    </section>
+
+    <!--Serviços-->
+    <section class="bg-secondary text-white p-5 text-center" id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card text-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvimento Web</h5>
+                        <p class="card-text">Transformamos sua visão em realidade digital, criando sites modernos e
+                            personalizados que elevam sua presença online, melhoram a experiência do usuário e
+                            posicionam sua marca de forma estratégica no mercado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing Digital</h5>
+                        <p class="card-text">Potencializamos sua marca com estratégias de marketing digital sob medida,
+                            utilizando as melhores práticas para ampliar seu alcance, engajar seu público-alvo e gerar
+                            resultados mensuráveis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Consultoria de TI</h5>
+                        <p class="card-text">Oferecemos soluções personalizadas de consultoria em TI, otimizando seus
+                            sistemas, aprimorando a eficiência operacional e garantindo que sua infraestrutura
+                            tecnológica esteja preparada para o futuro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="services-container">
+        </div>
+    </section>
+
+    <!-- Testemunhos -->
+    <section class="pt-5 pb-5 bg-light" id="testemunhos">
+        <div class="container">
+            <h2 class="text-center mb-4" data-aos="fade-up">O que nossos clientes dizem</h2>
+            <div class="row">
+                <div class="col-md-4 pt-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="card ">
+                        <img class="card-img-top rounded-circle mx-auto mt-3" src="Cliente-1.png" alt="Cliente 1"
+                            style="width: 100px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">João Silva</h5>
+                            <p class="card-text">"Um serviço excepcional! A equipe superou minhas expectativas e
+                                entregou com excelência. Recomendo a todos!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top rounded-circle mx-auto mt-3" src="cliente2.png" alt="Cliente 2"
+                            style="width: 100px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Maria Oliveira</h5>
+                            <p class="card-text">"Atendimento rápido e eficiente, fiquei muito satisfeita!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top rounded-circle mx-auto mt-3" src="Cliente3.png" alt="Cliente 3"
+                            style="width: 100px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Carlos Mendes</h5>
+                            <p class="card-text">"Qualidade e profissionalismo, superaram minhas expectativas!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="bg-secondary text-white p-5 text-center" id="form-control">
+        <h2>Trabalhe Conosco</h2>
+        <form id="contactForm" class="bg-white p-4 rounded" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Seu Email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Seu Telefone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Sua Mensagem"
+                    required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+        <div id="statusMessage" class="mt-3"></div>
+    </section>
+
+    <!--Footer-->
+    <footer class="pt-4 pb-4 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <a href="#" class="text-white mr-3">Facebook</a>
+                    <a href="#" class="text-white mr-3">Instagram</a>
+                    <a href="#" class="text-white">Twitter</a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Informações Legais</h5>
+                    <a href="#" class="text-white">Termos de Uso</a><br>
+                    <a href="#" class="text-white">Política de Privacidade</a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <p>Telefone: (00) 1234-5678</p>
+                    <p>Email: martelorh@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Incluindo jQuery, JS do Slick e AOS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Inicializando o carrossel
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 700,
+                autoplay: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+
+            // Inicializando a biblioteca de animação AOS
+            AOS.init();
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>
